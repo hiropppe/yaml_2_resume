@@ -1,0 +1,75 @@
+# 名前等
+# date が空白の時、今日の日付(和暦)が自動で入ります
+date: 令和7年12月22日現在
+name_kana: しもじ　もじお
+name: 下地　藻塩
+birth_day: 平成元年01月01日
+# 年齢は誕生日を基づいて計算し、下記の書式になります
+# 平成12年12月21日 (満 25 歳)
+gender: 男
+cell_phone: 090-3854-0XXX
+email: simoji.mojio@example.com
+# 写真をアップロードした場合、このフィールドが無視されます
+
+# 住所
+address_kana: みやこじまいにすみたい
+address: 沖縄県宮古島弐隅鯛
+address_zip: 906-0000
+tel: 0980-38-540X
+# 連絡先
+# address_kana2: いしがきじまでもおけ
+# address2: 沖縄県石垣島出藻桶
+# address_zip2: 907-0000
+# tel2: 0980-14-40XX
+address2: 同上
+
+# 学歴
+education:
+  - 
+    year: 1997
+    month: 4
+    value: 沖縄県立宮古高等学校　普通科　入学
+  - 
+    year: 2000
+    month: 3
+    value: 沖縄県立宮古高等学校　普通科　卒業
+  - 
+    year: 2000
+    month: 4
+    value: 美ら海大学　潜水学部　海猿学科　入学
+  - 
+    year: 2004
+    month: 3
+    value: 美ら海大学　潜水学部　海猿学科　卒業
+#職歴
+experience:
+  - 
+    year: 2004
+    month: 4
+    value: なんくるないさ株式会社　入社
+  - 
+    year: 2008
+    month: 9
+    value: なんくるないさ株式会社　一身上の都合により退職
+  - 
+    year: 2009
+    month: 3
+    value: 株式会社はいさーい　入社
+  - 
+    value: 現在に至る
+
+# 免許・資格
+licences:
+  - 
+    year: 
+    month: 
+    value: ※ 職務経歴書に記載しております
+
+#志望動機
+motivation: |
+  うちなーのこと、特に宮古の海がちゅらさるもんで、くゎーしゃしぼーさびたん 
+
+# 本人希望記入欄
+request: |
+  給与は貴社規定に従います
+  職種は海猿を希望しますが、リモートワークを希望いたします

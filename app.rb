@@ -12,8 +12,8 @@ include Util
 get '/' do
   @title = "YAML to 履歴書"
   @date = Date.today
-  @data_yml = load_as_erb("templates/data.yaml")
-  @style_txt = load_as_erb("templates/style.txt")
+  @data_yml = load_as_erb("templates/motivatist.yaml")
+  @style_txt = load_as_erb("templates/motivatist.txt")
   erb :index
 end
 
