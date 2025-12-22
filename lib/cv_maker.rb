@@ -252,10 +252,11 @@ class CVMaker
     height = size(h["height"])
     value = get_value(h)
     font_size, font_face = get_font(h)
+    leading = h["leading"] ? h["leading"].to_f : 0
     @doc.bounding_box([x, y], :width => width, :height => height) do
       @doc.font_size font_size
       @doc.font font_face
-      @doc.text value
+      @doc.text value, leading: leading
     end
   end
 
