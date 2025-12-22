@@ -9,6 +9,8 @@ gem 'rake'
 gem 'wareki'
 gem 'sinatra'
 gem 'sinatra-contrib', group: :development
+gem 'rackup'
+gem 'puma'
 gem 'mini_magick'
 
 group :development, :test do
